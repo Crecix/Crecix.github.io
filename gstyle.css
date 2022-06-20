@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  background-color: grey;
+  
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1440px) {
+
+.navb{
+    padding: 20px;
+    text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  }
+
+.box1 { grid-area: box1; }
+.box2 { grid-area: box2; }
+.box3 { grid-area: box3; }
+.box4 { grid-area: box4; }
+.box5 { grid-area: box5; }
+
+
+
+.grid{
+  gap: 10px;
+  display:grid;
+    grid-template-areas:
+    'box1 box1 box2' 
+    'box1 box1 box2'  
+    'box3 box4 box4'
+    'box3 box5 box5';
+    background-color: grey;
+    padding:50px;
+}
+.box1{
+    background-color: purple;
+    padding: 30px;
+     height: 50vh;  
+  }
+
+   .box2{
+    background-color: lightcoral;
+    padding: 50px;
+     height: 50vh;
+  }
+
+   .box3{
+    background-color: skyblue;
+    padding: 30px;
+     height: 52vh;
+  }
+
+   .box4{
+    background-color: limegreen;
+    padding: 30px;
+     height: 25vh;
+  }
+
+   .box5{
+   background-color: hotpink;
+   padding: 30px;
+     height: 25vh;
+}
+}
