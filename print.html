@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+  <body>
+  <header>
+ <nav>
+    <a href="index1.html" class="navb"> Responsive Website</a>
+	<a href="index.html" class="navb"> CSS FlexBox</a>
+    <a href="grid.html" class="navb">Grid Layout</a>
+	<a href="calculator.html"> Simple Calculator</a>
+	<a href="print.html"> Printing the screen </a>
+  </nav>
+  </header>
+<h1 id="name">Name: </h1>
+<h1 id="height">Height: </h1>
+<h1 id="country">Country: </h1>
+</body>
+
+<script>
+   const name = prompt("Input your name")
+    let height = prompt("Input your height")
+    const country = prompt("Input your country")
+    
+    document.getElementById("name").innerText=`Name: ${name}`;
+    document.getElementById("height").innerText=`Height: ${height}`;
+    document.getElementById("country").innerText=`Country: ${country}`;
+</script>
+</html>
