@@ -14,7 +14,7 @@ https://crecix.github.io/index.html
 https://crecix.github.io/grid.html
 
 4. Link to Intro to Javascript task:
-https://crecix.github.io/print_screen.html
+https://crecix.github.io/print.html
 
 5. Link to Simple arithmetic calculator task:
 https://crecix.github.io/calculator.html
